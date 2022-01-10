@@ -1,12 +1,12 @@
 variables:
-  ml-ws-connection: 'azmldemows' # Workspace Service Connection name
-  ml-ws: 'azservcon' # AML Workspace name
+  ml-ws-connection: 'azservcon' # Workspace Service Connection name
+  ml-ws: 'machine-learning-testing' # AML Workspace name
   ml-rg: 'azml' # AML resource Group name
-  ml-ct: 'cpu-cluster-1' # AML Compute cluster name
+  ml-ct: 'mlcluster' # AML Compute cluster name
   ml-path: 'models/diabetes' # Model directory path in repo
   ml-exp: 'exp-test' # Experiment name
   ml-model-name: 'diabetes-model' # Model name
-  ml-aks-name: 'aks-prod' # AKS cluster name
+  ml-aks-name: 'mlaks' # AKS cluster name
 
 trigger:
 - master
